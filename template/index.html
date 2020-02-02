@@ -1,0 +1,257 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="https://i2.wp.com/unitedcrowd.com/wp-content/uploads/2019/09/UnitedCrowd-FavIcon.png?fit=32%2C32&#038;ssl=1" sizes="32x32"/>
+<link rel="icon" href="https://i2.wp.com/unitedcrowd.com/wp-content/uploads/2019/09/UnitedCrowd-FavIcon.png?fit=192%2C192&#038;ssl=1" sizes="192x192"/>
+<link rel="apple-touch-icon-precomposed" href="https://i2.wp.com/unitedcrowd.com/wp-content/uploads/2019/09/UnitedCrowd-FavIcon.png?fit=180%2C180&#038;ssl=1"/>
+<meta name="msapplication-TileImage" content="https://i2.wp.com/unitedcrowd.com/wp-content/uploads/2019/09/UnitedCrowd-FavIcon.png?fit=260%2C260&#038;ssl=1"/>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>UnitedCrowd - VSOP</title>
+        <link rel="stylesheet" href="css/style_new.css" />
+        <link rel="stylesheet" href="css/balloon.css" />
+    </head>
+    <body>
+<style>
+.logo_size{
+width: 290px;
+}
+.qm {width: 20px; height: 20px; border: 1px solid red; padding-bottom: 5px; background-image: url("images/qm.png");}
+</style>
+        <header class="">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="images/UC-Logo_new.png" class="logo_size" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse navbar-collapse-right  " id="navbarSupportedContent">
+                     
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="form-area">
+			
+            <div class="container">
+<h1 style="color:#444; padding: 0 0 15px 25px; font-size: 28px">VSOP Overview</h1>
+                <!-- .row -->
+                <div class="row">
+                    <div id=""  class="col-sm-12">
+                        <div  class="white-box">
+                            <h3 class="box-title m-b-0">Employee Option Grants Status</h3>
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 b-r"> <strong>Total Options <span aria-label="Total amount of options being distributed to employees" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span></strong> <br>
+                                    <p class="text-muted" id="total_pool_option">1.000.000</p>
+                                </div>
+                                <div class="col-md-3 col-xs-6 b-r"> <strong>Employees in VSOP <span aria-label="Number of employees sign in to VSOP" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span></strong> <br>
+                                    <p class="text-muted" id="emp_in_VSOP">5</p>
+                                </div>
+                                <div class="col-md-3 col-xs-6 b-r"><strong>Available Pool Options <span  aria-label="Amount of options remaining in Pool for employees" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span></strong> <br>
+                                    <p class="text-muted" id="remain_pool_options">1.000.000</p>
+                                </div>
+                                <div class="col-md-3 col-xs-6"> <strong>Bonus Option Issued <span  aria-label="Extra options being issued already" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span></strong> <br>
+                                    <p class="text-muted" id="extra_option_issued">0</p>
+                                </div>
+
+                            </div>
+                           
+                            <hr class="m-t-0">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 b-r"> <strong>VSOP state</strong> <span  aria-label="State of VSOP Contract (open or terminated)" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="VSOP_state">Preparation</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="white-box">
+                            <h3 class="box-title m-b-0">Contract Addresses</h3>
+                            <div class="row">
+                                <div class="col-md-6 col-xs-6 b-r"> <strong>Root of Trust</strong> <span  aria-label="Deployed-once contract that points to other contracts that are deemed currently supported/official/endorsed by company" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="root_of_trust">0xE85b98C4935779CA772d2f2831EaCa76bA548018</p>
+                                </div>
+                                <div class="col-md-6 col-xs-6 b-r" > <strong>VSOP Contract</strong> <span  aria-label="ETH address of VSOP smart contract" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="VSOP_contract">0xA6cc9321a8cbffd332Af48323fB629817bFd6cD8</p>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="white-box">
+                            <h3 class="box-title m-b-0">VSOP terms and conditions</h3>
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 b-r"> <strong> Pool Options</strong> <span  aria-label="Amount of options being distributed to employees" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="total_pool_option_tc">900.000</p>
+                                </div>
+                                <div class="col-md-3 col-xs-6 b-r"> <strong>Bonus Options</strong> <span  aria-label="Extra given Options to employees due to different reasons" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="bonus_options">100.000</p>
+                                </div>
+								
+                                <div class="col-md-3 col-xs-6 b-r"> <strong> Strike Price</strong> <span  aria-label="Price in Euro for a virtual share at date of issue" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="total_pool_option_tc">1 &euro;</p>
+                                </div>
+                                <div class="col-md-3 col-xs-6 b-r"> <strong>New Employee Pool</strong> <span  aria-label="Percantage value of remaining pool options" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="new_employee_pool">100%</p>
+                                </div>
+							</div>
+						
+								 <hr class="m-t-0">
+								  <div class="row">
+                                <div class="col-md-3 col-xs-6 b-r"> <strong>Cliff Period</strong> <span  aria-label="Blocked period within the vesting time, where no vested shares will be emitted" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="new_employee_pool">12 Months</p>
+                                </div>
+                                <div class="col-md-3 col-xs-6 b-r"> <strong>Vesting Period</strong> <span  aria-label="Timespan where options lienarly increase to target amount" data-balloon-pos="up"><i class="fa fa-question-circle"></i></span><br>
+                                    <p class="text-muted" id="new_employee_pool">48 Months</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="white-box">
+                            <h3 class="box-title m-b-0">Employee List</h3>
+                            <div class="row">
+                                <div class="col-md-12 table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <th>Public Key</th>
+                                        <th>Issue Date</th>
+                                        <th>Issued Options</th>
+                                        <th>Vested Options</th>
+                                        <th>State</th>
+                                        </thead>
+                                        <tbody id="emp_table_body">
+<tr>
+                        <td><a href="https://etherscan.io/address/0x15DBbd48544ab748f3843CA69b8AEADBa3d32B19" target="_blank">0x15DBbd48544ab748f3843CA69b8AEADBa3d32B19</a></td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Employed</td>
+                        </tr>
+<tr>
+                        <td><a href="https://etherscan.io/address/0x6e8F6Bae9E663F2bF5308dc9b4326b62AEF8E0Ff" target="_blank">0x6e8F6Bae9E663F2bF5308dc9b4326b62AEF8E0Ff</a></td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Employed</td>
+                        </tr>
+<tr>
+                        <td><a href="https://etherscan.io/address/0xFaf53f5d539dAb5A274a7D27277C808a7Fb181F4" target="_blank">0xFaf53f5d539dAb5A274a7D27277C808a7Fb181F4</a></td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Employed</td>
+                        </tr>
+<tr>
+                        <td><a href="https://etherscan.io/address/0x1668CE17be26C6C5FFe1C5138dAc758C12841941" target="_blank">0x1668CE17be26C6C5FFe1C5138dAc758C12841941</a></td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Employed</td>
+                        </tr>
+<tr>
+                        <td><a href="https://etherscan.io/address/0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf" target="_blank">0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf</a></td>
+                        <td>-</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Employed</td>
+                        </tr>
+
+
+</tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                    <p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+                </div>
+                <!-- /.row -->
+            </div>
+			
+        </div>
+		
+        <footer class="main-footer text-center" >    
+            <!--<img src="images/image-object.png" style="width: 100%;">-->
+            <div class="bottom-nav-top">
+                <div class="container">
+                    <div class="footer-top">
+                        <ul class="footer-menu text-center">
+                            <li class="footer-menu-item"><a title="Imprint" href="https://unitedcrowd.com/en/imprint/">Imprint</a></li>
+                    <li class="footer-menu-item"><a href="https://unitedcrowd.com/en/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
+                    <li class="footer-menu-item"><a href="https://unitedcrowd.com/en/code-of-conduct/" title="Code of Conduct">Code of Conduct</a></li>
+                    <li class="footer-menu-item"><a href="https://unitedcrowd.zendesk.com/hc/en-us" title="FAQ">FAQ</a></li>
+                </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-nav-bottom">
+                <div class="container">
+                    <div class="footer-bottom">
+                        <div id="footer-info" class="footer-text">© 2016 - 2019 UnitedCrowd</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="plugins/bower_components/toast-master/js/jquery.toast.js"></script>
+        <script src="js/toastr.js"></script>
+        <script src="./web3jsnew/web3.js"></script>
+        <script>
+                                        //web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+        </script>
+        <script src="./web3jsnew/contractInstance.js"></script>
+       
+
+        <script src="./web3jsnew/apis.js"></script>
+        <script>
+                                        $('#left_menus').hide();
+                                        
+                                                                 
+                                        try {
+            if (!web3.isConnected()) {
+                
+                
+            }
+            else{
+                
+                 // check network
+            var networkID = web3.version.network;	// change this in the future
+            var networkName = "Kovan Test Network";	// change this in the future
+
+            if (networkID == "42") {
+                window.location.href="admin/get_all_details.html";
+            }
+            }
+        }
+        catch(err){
+           
+            
+        }
+        </script>
+
+    </body>
+</html>
+
+
