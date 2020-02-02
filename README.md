@@ -1,7 +1,7 @@
 ![UnitedCrowd](https://staging.unitedcrowd.com/github/uc-Logos-gr-l.jpg)
 # VSOP UserInterface
 The VSOP UserInterface reflects all important VSOP parameters and its corresponding values in order to obtain a full transparency to stakeholders, employees and public as well as government institutions.
-- the userface refers to smart contract `[wallet-address]`
+- the UserInterface refers to smart contract `[wallet-address]`
 
 ## Parameter list
 ### Employee Option Grants Status
